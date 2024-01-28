@@ -1,0 +1,23 @@
+.slots {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(8, auto);
+    max-width: 100%;
+    margin: 30px auto;
+    grid-gap: 1rem;
+  }
+  
+  .slots > button {
+    background-color: #F7F7F7;
+    text-align: center;
+    border-radius: 5px;
+    margin: 0px 20px 0px 20px;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  /* .slot-button {
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  } */
+  
